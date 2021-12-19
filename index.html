@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Etch a Sketch</title>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Etch a Sketch</h1>
+        </div>
+        <div>
+            <input type="range" min="8" max="64" value="16" class="slider" id="myRange" oninput="this.nextElementSibling.value = this.value">
+            <output>16</output>
+        </div>
+        <div class="container">
+        </div>
+    </body>
+</html>
